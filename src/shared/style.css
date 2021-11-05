@@ -1,0 +1,57 @@
+.buttonA{
+    background-color: transparent;
+    border:transparent;
+    padding: 15px 20px;
+    background-color: #DFFFF2;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+   white-space: nowrap;
+
+
+}
+.buttonB{
+   white-space: nowrap;
+    border:transparent ;
+    padding: 9px 25px !important;
+    background-color: #f4f4f4 ;
+    border-radius: 5px !important;
+    font-size: 18px !important;
+    font-family: 'Raleway', sans-serif !important;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.30) ;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.ranger-outer{
+    height: 8px;
+    border-radius: 10px;
+    background-color: #ccc;
+    min-width: 200px;
+    margin-top: 10px;
+}
+.ranger-inner{
+    height: 8px;
+    border-radius: 10px;
+    background-color: #00854D
+    ;
+}
+.button-icon{
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+
+}
+@media (max-width:700px) {
+    .buttonA{
+        padding: 10px;
+        font-size: 12px;
+        
+            }
+            .buttonB{
+                padding: 10px 13px !important;
+                font-size: 15px !important ;
+                
+                    }
+}

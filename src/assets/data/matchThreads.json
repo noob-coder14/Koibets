@@ -1,0 +1,17 @@
+[
+    {
+        "leagueName": "EPL",
+        "team1": "Liverpool",
+        "team2": "Watford"
+    },
+    {
+        "leagueName": "EPL",
+        "team1": "Westham",
+        "team2": "Chelsea"
+    },
+    {
+        "leagueName": "MLB",
+        "team1": "New Jersey",
+        "team2": "Atlanta"
+    }
+]

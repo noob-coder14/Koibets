@@ -1,0 +1,18 @@
+[
+    {
+        "team1": "Man Utd",
+        "team2": "Man City",
+        "Date": "27th October",
+        "Moneyline": ["-145","+145"],
+        "Spread": ["+1.5","-1.5"],
+        "UnderOver": ["3","5"]
+    },
+    {
+        "team1": "Real Madrid",
+        "team2": "Barcelona",
+        "Date": "22th October",
+        "Moneyline": ["-110","+110"],
+        "Spread": ["+1.2","-1.2"],
+        "UnderOver": ["4","5"]
+    }
+]

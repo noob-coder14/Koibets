@@ -1,0 +1,50 @@
+
+.header-container{
+    height: 109px;
+
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.30);
+    
+
+}
+.feedbox{
+    max-width: 900px;
+    padding: 20px 60px 20px 20px;
+    border: solid #00854D 1px;
+    margin: 10px;
+}
+.button-wrapper{
+    margin-right: 15px;
+}
+.comments-wrapper{
+    margin: 20px;
+    padding: 20px 30px 20px 20px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.30);
+}
+.notification-menu{
+background-color: #00854D;
+}
+.notification-container{
+    max-width: 230px;
+  
+}
+.notification-container .time-display{
+    font-size: 9px;
+    font-weight: 600;
+    margin-left: 3px;
+
+}
+
+.notification-container .notification-text{
+    font-size: 11px;
+    white-space: initial;
+}
+
+@media (max-width:700px) {
+    .header-container .buttonB p{
+        display: none;
+
+    }
+    .feedbox{
+        padding: 10px;
+    }
+}

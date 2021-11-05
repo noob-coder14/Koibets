@@ -1,0 +1,14 @@
+{
+    "post1": "Exercitation mollit consequat ipsum magna amet ex irure consectetur et. Consequat non proident ad adipisicing nulla deserunt excepteur pariatur nulla. Adipisicing sint dolor consequat voluptate sit ipsum ut aliquip consequat labore tempor magna.",
+    "comments": [
+        {
+            "text": "Aliquip voluptate aliqua nostrud in est. Est esse non aliqua aliqua incididunt ipsum reprehenderit reprehenderit eu.    ",
+            "likes": "30"
+        },
+        {
+            "text": "Aliquip voluptate aliqua nostrud in est. Est esse non aliqua aliqua incididunt ipsum reprehenderit reprehenderit eu.",
+            "likes": "15"
+        }
+    ],
+    "no_of_likes": "19"
+}

@@ -1,0 +1,23 @@
+
+.profile-container .Username{
+    
+    font-size: 42px;
+    margin: 10px 0px 5px 0px;
+}
+
+
+.user-detail-wrapper{
+    margin:20px;
+    flex: 1;
+    max-width: 500px;
+
+}
+.user-record{
+    margin: 20px;
+} 
+.bet-success-number{
+    color: #00854D;
+    font-weight:500 ;
+    margin-left: 10px;
+}
+

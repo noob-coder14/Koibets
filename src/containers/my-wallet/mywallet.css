@@ -1,0 +1,125 @@
+.wallets-tab-button-container{
+    min-width: 210px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.wallets-tab-button-container h2{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+.wallets-tab-button-container button{
+font-size: 18px;
+text-align: center;
+padding: 15px;
+
+}
+.wallet-content-container{
+    background: #F9F9F9;
+box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+max-width: 900px;
+}
+.wallet-content-container .content-wrapper{
+    padding: 40px;
+}
+.cradit-container .payment-method-button{
+    
+background: #FFFFFF;
+box-shadow: 0px 1px 2px 0.5px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+width: 145px;
+border-color: transparent;
+height: 83px;
+margin: 10px;
+}
+.cradit-container .bank-button{
+    
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px 0.5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+padding:10px 20px;
+    border-color: transparent;
+  
+    margin: 10px;
+    }
+
+    .cradit-container .cradit-amount {
+
+        background: #FFFFFF;
+        box-shadow: 0px 1px 2px 0.5px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+margin: 10px;
+padding: 10px;
+    }
+    .cradit-container .cradit-amount input{
+        border-color: transparent;
+        text-align: right;
+    }
+
+    .withdraw-container .form-item input,select{
+
+border-color: transparent;
+flex: 1;
+font-size: 18px;
+max-width: 400px;
+width: 100%;
+margin: 10px;
+border-radius: 10px;
+height: 47px;
+color:#9B9B9B ;
+/* padding: 13px 20px; */
+
+    }
+ input:focus{
+        outline: transparent;
+    }
+
+    .withdraw-container .cradit-amount {
+        height: 40px;
+        background: #FFFFFF;
+        border-radius: 10px;
+margin: 10px;
+padding: 10px;
+    }
+    .withdraw-container .cradit-amount input{
+        border-color: transparent;
+        text-align: right;
+    }
+
+
+    .wallet-current-balence-container .cradit-amount {
+        height: 40px;
+        background: #EBEBEB ;
+        border-radius: 10px;
+margin: 30px;
+padding: 10px;
+box-shadow: 0px 1px 2px 0.5px rgba(0, 0, 0, 0.25);
+
+    }
+    .history-container{
+        background-color: white;
+        padding-bottom: 50px;
+    }
+
+
+    .history-container table{
+
+        width: 100%;
+      
+    }
+    .history-container td,th{
+
+        text-align: center;
+        padding:15px 10px;
+    }
+    @media (max-width:700px) {
+        .wallet-content-container .content-wrapper{
+            padding: 10px;
+        }
+        .history-container{
+            max-width: 100vw;
+            overflow: scroll;
+        }
+    }

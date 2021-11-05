@@ -1,0 +1,76 @@
+
+.App{
+  min-height: 100vh;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.justify-center{
+  justify-content: center;
+
+}
+.justify-end{
+  justify-content: flex-end;
+  
+}
+.justify-start{
+  justify-content: flex-start;
+  
+}
+.justify-even{
+justify-content: space-evenly;
+}
+.justify-between{
+  justify-content: space-between;
+  
+}
+.justify-around{
+  justify-content: space-around;
+  
+}
+.align-center{
+  align-items: center;
+}
+.align-start{
+  align-items: flex-start;
+}
+.align-end{
+  align-items: flex-end;
+}
+.flex1{
+  flex: 1;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.main-container{
+  max-width: 1300px;
+  margin:0px auto;
+  flex: 1;
+  padding:0px 15px
+}
+.margin{
+  margin:5px
+}
+.button-transparent{
+  background-color: transparent;
+  border-color: transparent;
+  align-items: center;
+  display: flex; 
+  cursor: pointer;
+}
+@media (max-width:1000px) {
+  .row-to-col-mob{
+    flex-direction: column;
+  }
+}
+@media (max-width:600px) {
+  .main-container{
+    margin:0px;
+  }
+}
